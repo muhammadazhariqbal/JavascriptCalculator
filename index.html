@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-body">
+            <div class="calculator-head">
+               
+            </div>
+            <div class="calculator-screen">
+                <h2 id="result"></h2>
+            </div>
+            <div class="calculated-numbers">
+                <h6 id="calculated-numbers"></h6>
+            </div>
+            <div class="calculator-keyboard">
+                <div class="clear" onclick="getinput('c')">C</div>
+                <div class="bracket">()</div>
+                <div class="root">√</div>
+                <div class="cut">X</div>
+                <div class="one" onclick="getinput(1)">1</div>
+                <div class="two" onclick="getinput(2)">2</div>
+                <div class="three"  onclick="getinput(3)">3</div>
+                <div class="plus" onclick="getinput('+')">+</div>
+                <div class="one"  onclick="getinput(4)">4</div>
+                <div class="two"  onclick="getinput(5)">5</div>
+                <div class="three" onclick="getinput(6)">6</div>
+                <div class="plus" onclick="getinput('-')">-</div>
+                <div class="one" onclick="getinput(7)">7</div>
+                <div class="two" onclick="getinput(8)">8</div>
+                <div class="three" onclick="getinput(9)">9</div>
+                <div class="plus" onclick="getinput('*')">*</div>
+                <div class="one" onclick="getinput('%')">%</div>
+                <div class="two" onclick="getinput(0)">0</div>
+                <div class="three" onclick="getinput('.')">.</div>
+                <div class="plus" onclick="getinput('/')">/</div>
+                <div class="forresult" onclick="getinput('=')">=</div>
+                <hr class="line">
+            </div>
+           
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
